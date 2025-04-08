@@ -1,0 +1,70 @@
+<!-- 
+ ## HTML5 Semantic Tags##
+<main> : For the main content of the webpage, unique to that page.
+<section> : Defines a certain section of a webpage.
+<article> : Defines a bit content which makes up an article.
+<aside> : Defines some content related to something else (eg : similar blogs)
+<header> : For the header of a website : content the nav, title etc.
+<footer> : For the footer of a website. 
+-->
+
+<!DOCTYPE html>
+<html>
+<head>  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Mario Club</title>
+</head>
+<body>
+
+    <header>
+        <h1> Mario Club</h1>
+    </header>
+    <section class = "banner">
+        <img src="img/banner.png" alt="Mario Banner">
+        <div class="welcome">
+            <h2> Welcome to <br><span>Mario Club</span></h2>
+        </div>
+    </section>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#" class="join">Join the club</a></li>
+            <li><a href="#">Latest News</a></li>
+            <li><a href="#">New Games</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>It's me, Mario</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaes lorem
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaes lorem
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaes lorem
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaes lorem
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaes lorem
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaes lorem
+            </p>
+        </article>
+        <ul class="images">    
+            <li> <img src="img/thumb-1.png" alt="mario thumb 1"></li>
+            <li> <img src="img/thumb-2.png" alt="mario thumb 2"></li>
+        </ul>
+    </main>
+    <section class="join">
+        <h2>Join Today</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaes lorem
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaes lorem
+        </p>
+        <form>  
+            <input type="email" placeholder="Type email here..." required>
+        </form>
+    </section>
+    <footer>
+        <p class="copyright">Copyright 2025 Mario Club</p>
+    </footer>
+
+</body>
+
+</html>
